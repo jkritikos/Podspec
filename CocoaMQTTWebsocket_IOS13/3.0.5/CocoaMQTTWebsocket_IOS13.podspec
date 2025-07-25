@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   #s.default_subspec = 'Core'
   
   s.source_files = "Source/*.swift"
-  s.dependency "Starscream", "4.0.4"
+  s.dependency "Starscream", "4.0.8"
 
 end
