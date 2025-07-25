@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "CocoaMQTTWebsocket_IOS13"
-  s.version     = "3.0.6"
+  s.version     = "3.0.7"
   s.summary     = "MQTT v3.1.1 client library for iOS and OS X written with Swift 5"
   s.homepage    = "https://github.com/emqx/CocoaMQTT"
   s.license     = { :type => "MIT" }
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   #s.default_subspec = 'Core'
   
   s.source_files = "Source/*.swift"
-  s.dependency "Starscream", "4.0.8"
+  s.dependency "Starscream_IOS13", "4.0.4"
 
 end
